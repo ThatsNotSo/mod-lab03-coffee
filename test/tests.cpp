@@ -1,3 +1,7 @@
+// Copyright 2022 GHA Test Team
+#include <gtest/gtest.h>
+#include "Automata.h"
+
 TEST(task1, test1) {
     Automata first = Automata();
     first.On();
@@ -9,8 +13,8 @@ TEST(task1, test1) {
 TEST(task2, test2) {
     Automata second = Automata();
     second.On();
-    second.AddCoin(20);
-    second.ChoiceMenu(2);
+    second.AddCoin(1);
+    second.ChoiceMenu(1);
     int result = second.GetState();
     EXPECT_EQ(2, result);
 }
@@ -34,3 +38,6 @@ TEST(task4, test4) {
     int result = fourth.GetState();
     EXPECT_EQ(4, result);
 }
+© 2022 GitHub, Inc.
+Terms
+Pr

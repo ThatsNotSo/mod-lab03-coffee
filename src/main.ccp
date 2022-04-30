@@ -1,5 +1,5 @@
 // Copyright 2022 UNN-IASR
-#include "header.h"
+#include "Automata.h"
 #include <string.h>
 
 int main() {

@@ -38,6 +38,3 @@ TEST(task4, test4) {
     int result = fourth.GetState();
     EXPECT_EQ(4, result);
 }
-© 2022 GitHub, Inc.
-Terms
-Pr

@@ -36,8 +36,7 @@ void Automata::Check() {
     if (state == CHECK) {
         if (_amount - prices[_selectedMenu] >= 0) {
             Cook();
-        }
-        else {
+        } else {
             state = ACCEPT;
         }
     }
@@ -49,8 +48,7 @@ int Automata::Cancel() {
         double oddmoney = _amount;
         _amount = 0;
         return oddmoney;
-    }
-    else {
+    } else {
         return 0;
     }
 }
